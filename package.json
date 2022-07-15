@@ -7,7 +7,9 @@
   "scripts": {
     "build": "webpack --mode production",
     "clean": "rm ./packages/*/*.{js,js.map,d.ts}",
-    "test": "jest"
+    "test": "jest",
+    "prepublishOnly": "npm run build && npm run test",
+    "publish:workspaces": "npm publish --workspaces"
   },
   "author": "Devin Abbott",
   "license": "MIT",

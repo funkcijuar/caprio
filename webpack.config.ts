@@ -21,6 +21,7 @@ module.exports = () => {
       filename: "./[name]/index.js",
       library: "[name]",
       libraryTarget: "umd",
+      globalObject: "this",
     },
     devtool: "source-map",
     resolve: { extensions: [".ts", ".js"] },
