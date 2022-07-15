@@ -1,0 +1,8 @@
+node_modules
+
+# Generated files
+packages/**/*.js
+packages/**/*.js.map
+packages/**/*.d.ts
+dist
+build
