@@ -13,6 +13,7 @@
   },
   "author": "Devin Abbott",
   "license": "MIT",
+  "repository": "https://github.com/dabbott/caprio",
   "workspaces": [
     "packages/tuple-of",
     "packages/windows-of"
