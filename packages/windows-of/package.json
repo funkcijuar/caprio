@@ -1,12 +1,12 @@
 {
   "name": "@caprio/windows-of",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "author": "Devin Abbott",
   "license": "MIT",
   "repository": "https://github.com/dabbott/caprio",
   "dependencies": {
-    "@caprio/tuple-of": "^0.0.2"
+    "@caprio/tuple-of": "^1.0.0"
   }
 }
